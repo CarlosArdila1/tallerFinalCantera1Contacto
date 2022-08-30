@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+}
+
+body {
+    background-color: #F4F4F4;
+}
+
+nav img {
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+#container {
+    width: 500px;
+    align-items: center;
+    margin: 0 auto;
+    background-color: #5CACA3;
+    padding: 30px;
+    border: 7px solid #A69384;
+    display: flex;
+    justify-content: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+main label {
+    color: #fff;
+}
+
+main input {
+    padding: 4px;
+    margin: 6px 0px;
+    width: 300px;
+    border: 2px solid #A69384;
+}
+
+main input:hover {
+    border: 2px solid #ff7b00;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+
+main textarea {
+    padding: 4px;
+    margin: 6px 0px;
+    border: 2px solid #A69384;
+}
+
+main textarea:hover {
+    border: 2px solid #ff7b00;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+
+#submit, #reset {
+    padding: 2px;
+    width: 80px;
+    margin-top: 5px;
+    border: 2px solid #A69384;
+    color: #5CACA3;
+}
+
+#submit:hover {
+    width: 90px;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+
+#reset:hover {
+    width: 90px;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}

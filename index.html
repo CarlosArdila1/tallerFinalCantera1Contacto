@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <script src="js/main.js"></script>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body onload="main()">
+
+    <header>
+        <nav>
+            <figure>
+                <img src="images/contactUs.jpg" alt="top image">
+            </figure>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <article>
+                <div id="container">
+                    <form action="" method="" id="form" autocomplete="off">
+
+                        <label for="name"><b>Nombre:</b></label>
+                        <input type="text" name="name" id="name" placeholder="Name" required>
+
+                        <label for="mail"><b>E-mail:</b></label>
+                        <input type="email" name="mail" id="mail" placeholder="E-mail" required>
+
+                        <label for="subject"><b>Asunto:</b></label>
+                        <input type="text" name="subject" id="subject" placeholder="subject" required>
+                        
+                        <label for="message"><b>Mensaje:</b></label>
+                        <textarea name="message" id="message" rows="10" cols="60" required></textarea>
+                        
+                        <div id="btnContainer">
+                            <button type="submit" id="submit"><b>Enviar</b></button>
+                            <button type="reset" id="reset"><b>Borrar</b></button>
+                        </div>
+                        
+                    </form>
+                </div>
+            </article>
+        </section>
+    </main>
+
+</body>
+</html>
